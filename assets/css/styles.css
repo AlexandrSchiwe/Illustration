@@ -1,0 +1,428 @@
+/* =============================================
+                    FONTS
+============================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+/* 
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+*/
+
+/* =============================================
+                    COLORS
+============================================== */
+
+/* 
+
+Main
+
+#202020
+#24bff2
+#fff
+#F5FBFE
+rgb(143, 144, 147)
+
+Social Media
+
+#3b5998
+#fcaf45
+#55acee
+#c4302b
+
+*/
+
+/* =============================================
+                    GENERAL
+============================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* =============================================
+                    HEADER
+============================================== */
+
+header nav ul {
+    text-align: right;
+    margin: 10px 20px 0 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #202020;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+}
+
+header > div {
+    width:90%;
+    height: 70vh;
+    margin: 20px 0 0 6vw;
+    background: url("../img/illustration1.gif"); 
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right;
+    padding-right: 40vw;
+}
+
+header > div h1:first-of-type {
+    padding-top: 15vh;
+}
+
+header > div h1 {
+    font-size: 5.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+header > div p {
+    font-size: 2rem;
+    padding-right: 15vw;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+header > div a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+header > div a:nth-of-type(1) {
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+    background: black;
+    color: white;
+}
+
+header > div a:nth-of-type(2) {
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 2px 4px 10px 2px rgba(134,134,134,0.61);
+    color: black;
+}
+
+/* =============================================
+                MAIN/Real Beauty
+============================================== */
+
+main section:nth-of-type(1) {
+    width: 90%;
+    height: 70vh;
+    margin: 24vh 0 0 6vw;
+    background: url("../img/illustration2.png"); 
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: left;
+    padding-left: 40vw;
+    padding-right: 14vw;
+}
+
+main section:nth-of-type(1) h2 {
+    text-align: left;
+    font-size: 5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+main section:nth-of-type(1) h2:first-of-type {
+    padding: 25vh 0 0 0;
+}
+
+main section:nth-of-type(1) p {
+    text-align: left;
+    font-size: 2rem;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 10px;
+    line-height: 35px;
+}
+
+/* =============================================
+                MAIN/Expressiveness
+============================================== */
+
+main section:nth-of-type(2) {
+    width: 90%;
+    height: 70vh;
+    margin: 5vh 0 0 6vw;
+    background: url("../img/illustration3.png"); 
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right;
+    padding-right: 45vw;
+}
+
+main section:nth-of-type(2) h2 {
+    font-size: 5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+main section:nth-of-type(2) h2:first-of-type {
+    padding-top: 20vh;
+}
+
+main section:nth-of-type(2) p {
+    font-size: 2rem;
+    padding-right: 15vw;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 20px;
+}
+
+/* =============================================
+                MAIN/applications
+============================================== */
+
+
+main section:nth-of-type(3) { 
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right;
+    margin-top: 10vh;
+}
+
+main section:nth-of-type(3) h2 {
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+main section:nth-of-type(3) p {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 20px;
+    margin-bottom: 2px;
+}
+
+main section:nth-of-type(3) div {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+main section:nth-of-type(3) div > img {
+    width: 22%;
+}
+main section:nth-of-type(3) div > img:hover {
+    box-shadow: 1px 2px 14px -2px rgba(0,0,0,0.42);
+}
+
+main section:nth-of-type(3) div > img:nth-of-type(2) {
+    margin: 0 4vw;
+}
+
+/* =============================================
+                MAIN/examples
+============================================== */
+
+main section:nth-of-type(4) {
+    text-align: center;
+    margin-top: 15vh;
+}
+
+main section:nth-of-type(4) h2 {
+    font-size: 5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+main section:nth-of-type(4) p {
+    text-align: center;
+    font-size: 1.7rem;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 20px;
+    margin-bottom: 2px;
+}
+
+main section:nth-of-type(4) div:first-of-type {
+    margin-top: 10vh;
+}
+
+main section:nth-of-type(4) div img {
+    width: 40%;
+    margin: 50px;
+}
+
+main section:nth-of-type(4) div img:hover {
+    box-shadow: 1px 2px 14px -2px rgba(0,0,0,0.42);
+}
+
+/* =============================================
+                MAIN/download
+============================================== */
+main section:nth-of-type(5) {
+    text-align: center;
+}
+
+main section:nth-of-type(5) h2 {
+    font-size: 5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin: 40px 0;
+}
+
+main section:nth-of-type(5) p {
+    font-size: 2rem;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 20px;
+    margin-bottom: 2px;
+}
+
+/* =============================================
+                MAIN/membership
+============================================== */
+
+.membership {
+    width:25%;
+    margin: auto;
+    background: rgb(36, 191, 242, 0.1);
+    margin-top: 6vh;
+    border: 2px solid #F5FBFE;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.membership h2:first-child {
+    padding-top: 80px;
+    font-size: 3rem;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.membership h2:last-of-type {
+    font-size: 6rem;
+    color: #202020;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    padding-top: 60px;
+}
+
+.membership p:nth-of-type(1) {
+    color: rgb(143, 144, 147);
+    font-size: 2rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.membership p:nth-of-type(n+2) {
+    color: #202020;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+.membership div {
+    margin: 40px 0 60px 0;
+
+}
+
+.membership a {
+    padding: 15px 45px;
+    font-size: 1.7rem;
+    border: 1 solid #24bff2;
+    border-radius: 5px;
+    background: #24bff2;
+    color: white;text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+
+/* =============================================
+                MAIN/membership
+============================================== */
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 6rem;
+    font-family: 'Merriweather', serif;
+}
+
+footer > a {
+    display: block;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #202020;
+}
+
+footer > a:nth-child(even) {
+    color: rgb(143, 144, 147);
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    margin: 2px;
+    color: #202020;
+}
+
+footer ul li a span {
+    font-size: 2.5rem;
+}
+
+footer ul li:first-child a span {
+    color: #3b5998;
+}
+
+footer ul li:nth-of-type(2) a span {
+    color: #fcaf45
+}
+
+footer ul li:nth-of-type(3) a span {
+    color: #55acee;
+}
+
+footer ul li:nth-of-type(4) a span {
+    color: #c4302b;
+}
